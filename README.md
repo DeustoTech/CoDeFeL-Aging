@@ -2,8 +2,8 @@
 
 A teaching notebook on machine learning for biological-age determination, built from two papers:
 
-- **[P1]** Ibáñez de Opakua et al., *Mapping metabolic aging and disease-associated acceleration using an interpretable NMR-based clock* (`MetAgePaper_submitted.pdf`), the MetAge serum-NMR clock and its disease maps.
-- **[P2]** Biccari, Ibáñez de Opakua, Mato, Millet, Morales, Zuazua, *Fair feature attribution for multi-output prediction: a Shapley-based perspective* (`SHAP_SIMODS_03.pdf`), the rigidity theorem for multi-output SHAP.
+- **[P1]** Ibáñez de Opakua et al., *Mapping metabolic aging and disease-associated acceleration using an interpretable NMR-based clock*, the MetAge serum-NMR clock and its disease maps.
+- **[P2]** Biccari, Ibáñez de Opakua, Mato, Millet, Morales, Zuazua, *Fair feature attribution for multi-output prediction: a Shapley-based perspective*, the rigidity theorem for multi-output SHAP.
 
 ## Audience
 
@@ -53,7 +53,6 @@ export MPLCONFIGDIR=.work/matplotlib
 | `Bioage_Machine_Learning.ipynb` | The executed teaching notebook |
 | `Bioage_Machine_Learning.html` | Complete reading edition (code in collapsible panels) |
 | `Bioage_Colloquium.html` | Code-free colloquium edition (cells tagged `colloquium`) |
-| `MetAgePaper_submitted.pdf`, `SHAP_SIMODS_03.pdf` | The two source papers [P1], [P2] |
 | `tools/build_notebook.py` | Source of truth: all notebook text and code |
 | `tools/make_videos.py` | Renders `assets/videos/01_age_gap.mp4`, `02_collinearity.mp4`, `03_shapley_orders.mp4` |
 | `tools/extract_p1_figure.py` | Crops P1 Figure 2 from the PDF into `assets/figures/p1_original_figure2.png` |
